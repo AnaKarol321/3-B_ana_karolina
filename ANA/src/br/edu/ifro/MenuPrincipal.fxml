@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.text.*?>
 <?import com.jfoenix.controls.*?>
 <?import java.lang.*?>
 <?import java.util.*?>
@@ -7,10 +8,16 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.ifro.MenuPrincipalController">
+<AnchorPane id="AnchorPane" prefHeight="294.0" prefWidth="394.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.ifro.MenuPrincipalController">
     <children>
-        <Button fx:id="button" layoutX="73.0" layoutY="155.0" onAction="#handleButtonAction" text="OK" textFill="#e11384" />
         <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
-      <JFXButton layoutX="160.0" layoutY="155.0" text="SAIR" textFill="#d31567" />
+      <Text layoutX="44.0" layoutY="125.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Label fx:id="txtnumero1" layoutX="44.0" layoutY="41.0" text="Numero 1:" />
+      <Label fx:id="txtnumero3" layoutX="44.0" layoutY="104.0" text="Numero 2:" />
+      <Label fx:id="txtresultado" layoutX="44.0" layoutY="171.0" text="Resultado:" />
+      <TextField fx:id="txtnumero1" layoutX="26.0" layoutY="65.0" />
+      <TextField fx:id="txtnuemero2" layoutX="26.0" layoutY="135.0" />
+      <TextField fx:id="txtresultado" layoutX="26.0" layoutY="207.0" />
+      <Button fx:id="btnSoma" layoutX="283.0" layoutY="207.0" mnemonicParsing="false" text="Soma" />
     </children>
 </AnchorPane>
